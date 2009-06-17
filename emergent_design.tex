@@ -1,0 +1,37 @@
+\documentclass[a4paper, 12pt]{article}
+
+%better bibliography style control
+\usepackage{natbib}
+
+%utf-8, because it is the default in linux these days
+\usepackage[utf8]{inputenc}
+
+%\usepackage{graphicx}
+\usepackage[pdftex]{color,graphicx}
+\usepackage{hyperref}
+
+%make the url links blue
+\hypersetup{
+    pdfauthor={Eduardo Bellani},
+    pdftitle={An emergent participatory design framework for higher education},
+    pdfkeywords={education, emergent design, culture, technology},
+    colorlinks,
+    urlcolor= blue
+}
+
+
+\title{An emergent participatory design framework for higher education}
+
+\author{Eduardo Bellani}
+
+\begin{document} 
+    \maketitle
+    \input{abstract}
+    \input{introduction}
+    \input{description}
+    \input{case}
+    \input{conclusion}
+
+    \bibliographystyle{plainnat}
+    \bibliography{references}
+\end{document}
